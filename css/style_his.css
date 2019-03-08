@@ -1,0 +1,68 @@
+header{
+    background: url(../photo/Manchester_United_Champions_League_Medals.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+header .container {
+    position: relative;
+    z-index: 2;
+  }
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  .navbar{
+    background-color: rgba(0, 0, 0, 0.404)!important;
+    color: white;
+  }
+  .nav-item a{
+    color: white !important;
+  }
+  .nav-item a:hover{
+    color: rgb(196, 180, 180) !important;
+  }
+
+
+
+
+
+
+.munich{
+    background-color: rgb(50, 48, 53);
+    
+}
+.text_his h1{
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.munich_cont{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 1px white;
+}
+.munich_cont h5{
+    width: 400px;
+    font-size: 3vh;
+    padding: 30px;
+}
+.munich_cont img{
+    background-size: cover;
+    height: 100%;
+    padding: 30px;
+    padding-top: 20%;
+}
+@media (max-width: 524px){
+    .munich_cont img{
+      width: 430px;
+      height: 300px;
+    }
+  }

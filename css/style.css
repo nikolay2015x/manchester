@@ -1,0 +1,149 @@
+header{
+    position: relative;
+    background: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }  
+
+
+  .news_content{
+    border: solid 1px black;
+    padding: 30px;
+    width: 380px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+    background-color: rgb(59, 51, 51);
+    color: white;
+  }
+  .news_football{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .news_two{
+    border: solid 1px black;
+    padding: 30px;
+    width: 440px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px;
+    background-color: rgb(59, 51, 51);
+    color: white;
+  }
+
+h3{
+  font-size: 100px;
+}
+  .navbar{
+  background-color: rgba(0, 0, 0, 0.404)!important;
+  color: white;
+}
+.nav-item a{
+  color: white !important;
+}
+button{
+  background: rgba(255, 255, 255, 0.39) !important;
+}
+.post{
+  margin-top: 50px;
+}
+.h4{
+  margin-top: 20px !important;
+}
+.h6{
+  margin-top: 30px !important;
+}
+.block{
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.block .h4{
+  text-align: center;
+}
+.block .h6{
+  text-align: center;
+}
+.block img{
+  justify-content: center;
+}
+.img-caro img{
+    display: block;
+    position: relative; 
+}
+.img-caro p{
+  font-size: 3vw;
+  position: absolute;
+  padding: 100px;
+  top: 50%;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+}
+@media (max-width: 620px){
+  .img-caro p{
+    left: 0;
+  }
+}
+@media (max-width: 1300px){
+  .img-caro p{
+    left: 5;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
